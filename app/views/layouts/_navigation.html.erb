@@ -1,0 +1,9 @@
+<%# navigation styled for Bootstrap 4.0 %>
+<nav class="navbar navbar-light bg-light">
+    <div class="container">
+        <%= link_to "Keith Srinivasan", root_path, class: 'navbar-brand' %>
+        <ul class="nav navbar-nav">
+            <%= render 'layouts/navigation_links' %> <!-- All your other links should go in the navigation_links layout file. -->
+        </ul>
+    </div>
+</nav>
